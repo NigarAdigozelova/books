@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  color: white;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 50px;
+
+  /* transform: translate(-50%,-50%); */
+
+}
+
+.input {
+  text-align: center;
+  padding: 6px;
+  width: 800px;
+  height: 40px;
+  border-radius: 5px;
+  border:2px solid red
+
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nigar{
+  position: absolute;
+}
+.fa-magnifying-glass{
+ position: absolute;
+ right:10px;
+ padding: 10px;
+}
